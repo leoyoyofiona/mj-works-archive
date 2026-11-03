@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="night">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MICHAEL JACKSON 作品欣赏档案｜King of Pop · A Fan Tribute</title>
+  <meta name="description" content="一个影迷整理的 Michael Jackson 作品欣赏档案。时间长廊、作品档案、经典时刻、视听馆、现场演唱会与更多相关，重新走进流行之王的音乐与一生。非官方网站，无商业隶属关系，内容与视觉全部原创。" />
+  <meta name="theme-color" content="#0a0a0e" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230a0a0e'/%3E%3Ctext x='16' y='23' font-size='18' font-family='Georgia' fill='%23e9c86b' text-anchor='middle'%3EMJ%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lexend:wght@300;400;500;600;700&family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=18" />
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">跳到主要内容</a>
+
+  <canvas id="stars" aria-hidden="true"></canvas>
+  <div class="aurora" id="aurora" aria-hidden="true"><i></i><i></i><i></i></div>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="site-header">
+    <a class="brand" href="#top" aria-label="返回首页">
+      <svg class="crown-logo" viewBox="0 0 64 56" aria-hidden="true">
+        <path class="c" d="M12 22 L17 10 L25 19 L32 7 L39 19 L47 10 L52 22 L50 27 L14 27 Z"/>
+        <circle class="g" cx="32" cy="6" r="2.4"/><circle class="g" cx="18" cy="12" r="1.6"/><circle class="g" cx="46" cy="12" r="1.6"/>
+        <rect class="b" x="14" y="27" width="36" height="4" rx="2"/>
+        <text class="t" x="32" y="50" text-anchor="middle" font-family="'Bebas Neue', Impact, 'Arial Narrow', sans-serif" font-size="21" letter-spacing="2">MJ</text>
+      </svg>
+      <span class="brand-text">
+        <strong>MICHAEL JACKSON</strong>
+        <small>THE KING OF POP · FAN TRIBUTE</small>
+      </span>
+    </a>
+    <nav aria-label="主导航" class="site-nav">
+      <a href="#works">作品</a>
+      <a href="#moments">经典时刻</a>
+      <a href="#live">现场</a>
+      <a href="#memorial">怀念</a>
+      <a href="#more">更多</a>
+    </nav>
+    <div class="top-visits" title="影迷现场 · 访问统计">
+      <span class="tv-dot" aria-hidden="true"></span>
+      <span class="tv"><b id="v-today">—</b> 今日</span>
+      <i aria-hidden="true"></i>
+      <span class="tv"><b id="v-total">—</b> 累计</span>
+    </div>
+    <div class="header-meta">
+      <div class="region-toggle" role="group" aria-label="访问地区">
+        <button type="button" data-region="ow" class="active" title="海外地区">海外</button>
+        <button type="button" data-region="cn" title="中国大陆">中国大陆</button>
+      </div>
+      <button class="music-toggle" type="button" aria-label="播放背景音乐（轮播）" title="背景音乐 · 经典轮播">
+        <svg class="icon-music" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+      </button>
+      <button class="sound-toggle" type="button" aria-label="播放环境音" title="环境音（默认关闭）">
+        <svg class="icon-sound" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg>
+      </button>
+      <a class="creator-logo" href="mailto:leooelcn@gmail.com" aria-label="联系网站创作者 LEOYOYOFIONA">
+        <strong>LEOYOYOFIONA</strong><small>CREATOR · CONTACT</small>
+      </a>
+      <button class="theme-toggle" type="button" aria-label="切换到白天模式" title="白天模式">
+        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-sun" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-moon" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="main">
+    <span class="spot-scan" aria-hidden="true"></span>
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="kicker reveal">IN LOVING MEMORY · 1958 — 2009 · KING OF POP</p>
+        <h1 class="hero-title reveal">
+          <span class="line">MICHAEL</span>
+          <span class="line line-gold">JACKSON</span>
+        </h1>
+        <p class="hero-sub reveal">月球漫步 · 电光舞步 · 流行之王</p>
+        <p class="hero-desc reveal">从加里的童声，到改变行业的舞台。<br />这里以时间、专辑、名场面与影像，重新走进他的音乐与一生。</p>
+        <div class="hero-cta reveal">
+          <a class="btn btn-primary" href="#timeline">进入时间长廊 <span>↘</span></a>
+          <a class="btn btn-ghost" href="#works">浏览作品档案</a>
+        </div>
+        <div class="hero-era reveal">
+          <span>歌手</span><i></i><span>舞者</span><i></i><span>词曲作者</span><i></i><span>慈善家</span>
+        </div>
+      </div>
+      <figure class="hero-portrait reveal">
+        <div class="hero-slides" id="hero-slides">
+          <div class="hero-cap" id="hero-cap">—</div>
+          <button class="harrow left" id="harrow-l" type="button" aria-label="上一张">‹</button>
+          <button class="harrow right" id="harrow-r" type="button" aria-label="下一张">›</button>
+          <div class="hero-dots" id="hero-dots"></div>
+        </div>
+        <div class="hero-thumbs" id="hero-thumbs"></div>
+      <figcaption>THE KING OF POP · 影像轮播（Wikimedia Commons · CC BY 2.0 / Apple Music 公开封面）</figcaption>
+      </figure>
+    </div>
+    <div class="hero-foot">
+      <span class="scroll-cue">SCROLL TO EXPLORE</span>
+      <span class="sound-note">环境音默认关闭</span>
+    </div>
+  </section>
+
+  <!-- ============ MARQUEE ============ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track" id="marquee-track"></div>
+  </div>
+
+  <!-- ============ DISCLAIMER STRIP ============ -->
+  <div class="disclaimer-strip" role="note">
+    <strong>免责申明</strong>
+    <span>本站为影迷基于个人爱好制作的非官方、非商业致敬档案，与 Michael Jackson Estate、MJJP Records、Sony Music 及其关联方无隶属关系。专辑/单曲封面、电影海报与人物影像来自公开渠道（Apple Music 预览图、Wikipedia / Wikimedia Commons），仅作非商业欣赏与介绍，权利归各自权利人所有，可随时移除；本站全部文案、视觉与代码均为原创。视频以官方渠道外链嵌入，仅供欣赏。资料如有错漏，或权利人对展示内容有异议，欢迎联系指正。</span>
+    <a href="#disclaimer">了解更多 ↗</a>
+  </div>
+
+  <!-- ============ STATS ============ -->
+  <section class="stats" aria-label="公开资料常见口径的荣誉概览">
+    <div class="stat reveal"><strong>13</strong><span>座格莱美奖</span><small>GRAMMY AWARDS · 含年度专辑与终身成就</small></div>
+    <div class="stat reveal"><strong>1<em>亿</em>+</strong><span>《Thriller》全球销量</span><small>BEST-SELLING ALBUM · 史上最畅销专辑</small></div>
+    <div class="stat reveal"><strong>1983</strong><span>月球漫步电视首秀</span><small>THE MOONWALK · Motown 25</small></div>
+    <div class="stat reveal"><strong>40<em>+</em></strong><span>慈善组织支持</span><small>40+ CHARITIES · Heal the World</small></div>
+    <p class="stats-note">统计数据为公开资料常见口径，仅供影迷参考。</p>
+  </section>
+
+  <main>
+    <!-- ============ 01 TIMELINE ============ -->
+    <section class="section" id="timeline" data-film="1">
+      <header class="section-head reveal">
+        <p class="section-index">01 / THROUGH THE YEARS</p>
+        <h2>时间长廊</h2>
+        <p class="section-sub">一帧一帧，走进传奇的每一站。</p>
+      </header>
+
+      <div class="filmstrip reveal" id="filmstrip">
+        <button class="strip-btn prev" type="button" aria-label="上一幕">← 上一幕</button>
+        <div class="strip-window">
+          <div class="strip-track" id="strip-track">
+            <article class="node">
+              <img class="tl-poster" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Michael_Jackson_-_High_Res_version_%284518221965%29.jpg/960px-Michael_Jackson_-_High_Res_version_%284518221965%29.jpg" alt="1958 相关作品海报" loading="lazy" /><h3>出生</h3><p>8 月 29 日生于美国印第安纳州加里市。</p>
+            </article>
+            <article class="node">
+              <img class="tl-poster" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/The_Jackson_5_1972.JPG/960px-The_Jackson_5_1972.JPG" alt="1964 相关作品海报" loading="lazy" /><h3>初登舞台</h3><p>与哥哥们组成 Jackson 5，家族乐队之路开始。</p>
+            </article>
+            <article class="node">
+              <img class="tl-poster" src="https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6c/3c/86/6c3c860b-0e0a-f016-1adc-44d8e3ff0144/00602537386796.rgb.jpg/800x800bb.jpg" alt="1969 相关作品海报" loading="lazy" /><h3>一夜走红</h3><p>《I Want You Back》登顶榜单，童星时代开启。</p>
+            </article>
+            <article class="node">
+              <img class="tl-poster" src="https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0c/fe/a3/0cfea324-57c1-d530-5248-9bb591bbd7bf/074643574525.jpg/800x800bb.jpg" alt="1979 相关作品海报" loading="lazy" /><h3>单飞启程</h3><p>首张个人专辑《Off the Wall》发行，横扫格莱美。</p>
+            </article>
+            <article class="node">
+              <img class="tl-poster" src="https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/4f/fd/324ffda2-9e51-8f6a-0c2d-c6fd2b41ac55/074643811224.jpg/800x800bb.jpg" alt="1982 相关作品海报" loading="lazy" /><h3>巅峰之作</h3><p>《Thriller》发行，成为史上最畅销专辑。</p>
+            </article>
+            <article class="node">
+              <img class="tl-poster" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Michael_Jackson%2C_1988_%283662753958%29.jpg/960px-Michael_Jackson%2C_1988_%283662753958%29.jpg" alt="1983 相关作品海报" loading="lazy" /><h3>月球漫步</h3><p>Motown 25 电视特别节目首度公开表演月球漫步。</p>
+            </article>
+            <article class="node">
+              <img class="tl-poster" src="https://is1-ssl.mzstatic.com/image/thumb/Music/y2005/m01/d20/h14/s05.bkornbke.jpg/800x800bb.jpg" alt="1985 相关作品海报" loading="lazy" /><h3>众星联唱</h3><p>与 Lionel Richie 合写《We Are the World》为饥荒募款。</p>
+            </article>
+            <article class="node">
+              <img class="tl-poster" src="https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d5/5f/28/d55f28f4-610c-ee81-dc16-a01cda46bbc4/886443546264.jpg/800x800bb.jpg" alt="1987 相关作品海报" loading="lazy" /><h3>再度登顶</h3><p>《Bad》发行，五首单曲登顶 Billboard。</p>
+            </article>
+            <article class="node">
+              <img class="tl-poster" src="https://upload.wikimedia.org/wikipedia/en/1/11/Michaeljacksondangerous.jpg" alt="1991 相关作品海报" loading="lazy" /><h3>视觉革命</h3><p>《Dangerous》与史诗级短片《Black or White》。</p>
+            </article>
+            <article class="node">
+              <img class="tl-poster" src="https://upload.wikimedia.org/wikipedia/en/3/35/MJ-HIStory.jpg" alt="1995 相关作品海报" loading="lazy" /><h3>双碟史诗</h3><p>《HIStory》发行，收录《Earth Song》《Scream》。</p>
+            </article>
+            <article class="node">
+              <img class="tl-poster" src="https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/dc/02/ef/dc02eff2-027c-a468-7d7b-aa9404e74f1a/mzi.mgytcnob.jpg/800x800bb.jpg" alt="2001 相关作品海报" loading="lazy" /><h3>世纪回归</h3><p>最后一张录音室专辑《Invincible》发行。</p>
+            </article>
+            <article class="node node-end">
+              <img class="tl-poster" src="https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/2a/82/a5/2a82a59b-6e79-7c39-761a-c1d3b82e93cb/dj.dzbxcmnk.jpg/800x800bb.jpg" alt="2009 This Is It" loading="lazy" />
+              <time>2009</time><h3>告别巡演</h3><p>宣布《This Is It》系列演唱会后不久离世，世界同悲。</p>
+            </article>
+          </div>
+        </div>
+        <button class="strip-btn next" type="button" aria-label="下一幕">下一幕 →</button>
+      </div>
+      <p class="strip-hint">可拖动胶片、触摸横滑，也可用左右按钮逐幕浏览。</p>
+    </section>
+
+    <!-- ============ 02 WORKS (flip poster cards) ============ -->
+    <section class="section" id="works" data-film="1">
+      <header class="section-head reveal">
+        <p class="section-index">02 / DISCOGRAPHY</p>
+        <h2>作品档案</h2>
+        <p class="section-sub">点击卡片翻面，查看更多介绍。</p>
+      </header>
+      <div class="grid albums" id="albums-grid"><!-- JS 渲染 --></div>
+      <p class="strip-hint">共 24 张作品卡 · 12 张录音室专辑 + 现场/周年/遗珠与精选。</p>
+    </section>
+
+    <!-- ============ 经典时刻 BIG PLAY ============ -->
+    <section class="section" id="moments" data-film="1">
+      <header class="section-head reveal">
+        <p class="section-index">♛ / THE KING OF POP</p>
+        <h2>经典时刻</h2>
+        <p class="section-sub">一支舞、一段现场、一个时代。播放最经典的 MJ 名场面。</p>
+      </header>
+      <div class="moment-stage reveal" id="moment-stage">
+        <div class="moment-bg" id="moment-bg"></div>
+        <img class="moment-poster" id="moment-poster" alt="经典时刻预览图" />
+        <div class="moment-frame" id="moment-frame"></div>
+        <div class="moment-veil" id="moment-veil" aria-hidden="true">
+          <div class="mv-inner">
+            <img class="mv-poster" id="moment-veil-img" alt="预览" />
+            <span class="mv-spin" aria-hidden="true"></span>
+            <p class="mv-txt" id="moment-veil-txt">正在连接播放器…</p>
+            <small>若长时间黑屏，请点下方「B站 / YouTube」换源，或「外部打开 ↗」</small>
+          </div>
+        </div>
+        <button class="moment-play" id="moment-play" type="button" aria-label="播放"><span class="ico">▶</span><span class="lbl">PLAY</span></button>
+        <div class="moment-info">
+          <span class="moment-title" id="moment-title">—</span>
+          <span class="moment-sub" id="moment-sub">—</span>
+          <span class="moment-idx" id="moment-idx">1 / 5</span>
+        </div>
+        <button class="moment-nav prev" id="moment-prev" type="button" aria-label="上一个">‹</button>
+        <button class="moment-nav next" id="moment-next" type="button" aria-label="下一个">›</button>
+      </div>
+      <div class="moment-tools" id="moment-tools" role="group" aria-label="播放平台">
+        <span class="mt-label">播放源</span>
+        <button type="button" class="mt-chip" data-mt="yt">▶ YouTube</button>
+        <button type="button" class="mt-chip" data-mt="bv">▶ B站</button>
+        <a class="mt-ext" id="moment-ext" href="#" target="_blank" rel="noopener">外部打开 ↗</a>
+      </div>
+      <p class="strip-hint moment-hint">点一张即在大屏播放（共 12+ 场可选）；连接时显示预览，如黑屏请用上方按钮换源。</p>
+      <div class="moment-pick reveal" id="moment-pick"></div>
+    </section>
+
+    <!-- ============ 03 WATCH & LISTEN ============ -->
+    <section class="section" id="watch">
+      <header class="section-head reveal">
+        <p class="section-index">03 / WATCH &amp; LISTEN</p>
+        <h2>视听馆</h2>
+        <p class="section-sub">官方渠道外链嵌入：海外用 YouTube，大陆用 B 站，请按你的网络环境切换地区。</p>
+      </header>
+      <div class="watch-bar reveal">
+        <div class="tabs" role="tablist" aria-label="视频分类">
+          <button type="button" class="tab active" data-kind="all">全部</button>
+          <button type="button" class="tab" data-kind="mv">MV 与短篇</button>
+          <button type="button" class="tab" data-kind="doc">纪录与幕后</button>
+          <button type="button" class="tab" data-kind="bts">幕后 BTS</button>
+        </div>
+        <p class="watch-note" id="watch-note">当前地区：<strong>海外</strong> · 优先使用 YouTube 官方源（现场影像见下方「现场演唱会」）</p>
+      </div>
+      <div class="grid watch" id="video-grid"><!-- JS 渲染 --></div>
+    </section>
+
+    <!-- ============ 05 LIVE CONCERTS ============ -->
+    <section class="section" id="live">
+      <header class="section-head reveal">
+        <p class="section-index">04 / ON STAGE</p>
+        <h2>现场演唱会</h2>
+        <p class="section-sub">从家族巡演到世界巡演，再到未竟的告别演出。</p>
+      </header>
+      <div class="poster-band reveal" id="live-band"></div>
+      <div class="grid tours" id="concert-cards"><!-- JS 渲染 --></div>
+      <p class="strip-hint">巡演 × 特别现场 全收录（12 项）——点图看文字档案，完整影像见下方图集与回放。</p>
+      <h3 class="live-sub reveal">现场与历史影像 · GALLERY</h3>
+      <div class="gallery reveal" id="live-gallery"><!-- JS 渲染 --></div>
+      <h3 class="live-sub reveal">经典现场回放</h3>
+      <div class="grid watch live-grid" id="live-grid"><!-- JS 渲染 --></div>
+    </section>
+
+    <!-- ============ 06 LEGACY ============ -->
+    <section class="section" id="legacy">
+      <header class="section-head reveal">
+        <p class="section-index">05 / LEGACY</p>
+        <h2>影响与荣誉</h2>
+        <p class="section-sub">有些舞步被刻进时代的记忆，再也无法被抹去。</p>
+      </header>
+      <div class="grid legacy">
+        <article class="card legacy-card reveal">
+          <img class="lg-img" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Michael_Jackson%2C_1988_%283662754910%29.jpg/960px-Michael_Jackson%2C_1988_%283662754910%29.jpg" alt="月球漫步 · 舞台影像" loading="lazy" />
+          <h3>月球漫步</h3><p>1983 年电视首秀后，成为全球流行文化符号。</p>
+        </article>
+        <article class="card legacy-card reveal">
+          <img class="lg-img" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Michael_Jackson_-_High_Res_version_%284518221965%29.jpg/960px-Michael_Jackson_-_High_Res_version_%284518221965%29.jpg" alt="13 座格莱美 · 影像" loading="lazy" />
+          <h3>13 座格莱美</h3><p>含《Thriller》年度专辑与终身成就奖。</p>
+        </article>
+        <article class="card legacy-card reveal">
+          <img class="lg-img" src="https://upload.wikimedia.org/wikipedia/en/1/11/Michaeljacksondangerous.jpg" alt="吉尼斯纪录 · Dangerous 时代" loading="lazy" />
+          <h3>吉尼斯纪录</h3><p>「史上最成功艺人」、《Thriller》最畅销专辑。</p>
+        </article>
+        <article class="card legacy-card reveal">
+          <img class="lg-img" src="https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/4f/fd/324ffda2-9e51-8f6a-0c2d-c6fd2b41ac55/074643811224.jpg/600x600bb.jpg" alt="MTV 时代 · Thriller" loading="lazy" />
+          <h3>MTV 时代</h3><p>用音乐短片重新定义「看音乐」的体验。</p>
+        </article>
+        <article class="card legacy-card reveal">
+          <img class="lg-img" src="https://is1-ssl.mzstatic.com/image/thumb/Music/y2005/m01/d20/h14/s05.bkornbke.jpg/600x600bb.jpg" alt="We Are the World · 封面" loading="lazy" />
+          <h3>We Are the World</h3><p>1985 年与人合写，为非洲饥荒募款。</p>
+        </article>
+        <article class="card legacy-card reveal">
+          <img class="lg-img" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Michael_Jackson_-_High_Res_version_%284518178333%29.jpg/960px-Michael_Jackson_-_High_Res_version_%284518178333%29.jpg" alt="慈善之心 · 舞台影像" loading="lazy" />
+          <h3>慈善之心</h3><p>Heal the World 基金会与数十项慈善支持。</p>
+        </article>
+        <article class="card legacy-card reveal">
+          <img class="lg-img" src="https://upload.wikimedia.org/wikipedia/en/1/11/Michaeljacksondangerous.jpg" alt="摇滚名人堂 · Dangerous 时代" loading="lazy" />
+          <h3>摇滚名人堂</h3><p>1997（Jackson 5）与 2001（独唱）两次入选。</p>
+        </article>
+        <article class="card legacy-card reveal">
+          <img class="lg-img" src="https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d5/5f/28/d55f28f4-610c-ee81-dc16-a01cda46bbc4/886443546264.jpg/600x600bb.jpg" alt="美国音乐奖 · Bad 时代" loading="lazy" />
+          <h3>美国音乐奖 AMA</h3><p>多次获得最受欢迎男歌手等大奖的现场名场面。</p>
+        </article>
+        <article class="card legacy-card reveal">
+          <img class="lg-img" src="https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0c/fe/a3/0cfea324-57c1-d530-5248-9bb591bbd7bf/074643574525.jpg/600x600bb.jpg" alt="好莱坞星光大道 · Off the Wall 时代" loading="lazy" />
+          <h3>好莱坞星光大道</h3><p>1984 年留星，星光大道上的传奇坐标。</p>
+        </article>
+      </div>
+      <h3 class="live-sub reveal">颁奖现场 · AWARDS MOMENTS</h3>
+      <div class="grid watch awards-row" id="award-clips"><!-- JS 渲染 --></div>
+    </section>
+
+    <!-- ============ IN MEMORIAM 怀念 ============ -->
+    <section class="section memorial" id="memorial" data-act="flower">
+      <header class="section-head reveal">
+        <p class="section-index">◎ / IN MEMORIAM</p>
+        <h2>怀念 · 轻轻就好</h2>
+        <p class="section-sub">想他的时候随时来坐坐——点一支蜡烛，或献上一朵花，都很自然。</p>
+      </header>
+
+      <div class="acts reveal" role="group" aria-label="致敬方式">
+        <button type="button" class="act" data-act="candle">🕯️ 点亮蜡烛</button>
+        <button type="button" class="act active" data-act="flower">🌸 献上一朵花</button>
+      </div>
+
+      <div class="memorial-body reveal">
+        <p class="memorial-yrs">1 9 5 8&nbsp;&nbsp;—&nbsp;&nbsp;2 0 0 9</p>
+        <p class="memorial-line">他把月光踩成了舞步，也把温柔唱进了歌里。<br />想他的时候，轻轻点亮一盏灯，或放下一朵花，就够了。</p>
+      </div>
+
+      <div class="candle-stage reveal">
+        <div class="candle-row" id="candle-row"></div>
+        <p class="candle-count" id="candle-count">还没有烛光——不急，想点就点。</p>
+      </div>
+
+      <div class="flower-stage reveal">
+        <div class="flower-garden" id="flower-garden">
+          <p class="garden-hint">点一下花园，放下一朵花 🌸</p>
+        </div>
+        <p class="garden-count" id="garden-count"></p>
+      </div>
+
+      <div class="candle-form reveal">
+        <input id="candle-name" type="text" maxlength="20" placeholder="留个名字或一句祝福（可选）" autocomplete="off" />
+        <button class="btn btn-primary" id="candle-btn" type="button">点一支蜡烛 ✦</button>
+        <button class="btn btn-ghost" id="flower-btn" type="button">放下一朵花 ✿</button>
+      </div>
+      <ul class="candle-names" id="candle-names"></ul>
+      <p class="memorial-closing reveal">他只是先去别的星球，跳一场更久的舞了。♥</p>
+    </section>
+
+    <!-- ============ 07 MORE RELATED ============ -->
+    <section class="section" id="more">
+      <header class="section-head reveal">
+        <p class="section-index">06 / MORE RELATED</p>
+        <h2>更多相关</h2>
+        <p class="section-sub">凡是与他相关的，都值得被记住。</p>
+      </header>
+      <div class="poster-band reveal" id="more-band"></div>
+      <h3 class="live-sub reveal">故事志 · STORIES</h3>
+      <div class="stories grid">
+        <article class="story reveal">
+          <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/The_Jackson_5_1972.JPG/960px-The_Jackson_5_1972.JPG" alt="Jackson 5" loading="lazy" />
+          <div class="st-body"><h3>加里的小屋与第一支舞</h3>
+          <p>在印第安纳州加里的一间小屋里，五兄弟跟着父亲的排练开始长大。很小他就学会：舞台上的每一秒，都要对得起台下的人。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Michael_Jackson%2C_1988_%283662753958%29.jpg/960px-Michael_Jackson%2C_1988_%283662753958%29.jpg" alt="1988 舞台" loading="lazy" />
+          <div class="st-body"><h3>月球漫步的诞生之夜</h3>
+          <p>1983 年 Motown 25 直播前，他把“向后滑步”练到深夜。那一晚的 6 分钟，让全世界第一次看见月球漫步。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://is1-ssl.mzstatic.com/image/thumb/Music/y2005/m01/d20/h14/s05.bkornbke.jpg/600x600bb.jpg" alt="We Are the World" loading="lazy" />
+          <div class="st-body"><h3>录音室里的一夜：We Are the World</h3>
+          <p>1985 年的一个夜晚，数十位歌手走进同一间录音室。他与 Lionel Richie 合写的旋律，为饥荒中的孩子们唱了一整年。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Michael_Jackson_-_High_Res_version_%284518221965%29.jpg/960px-Michael_Jackson_-_High_Res_version_%284518221965%29.jpg" alt="1988 肖像" loading="lazy" />
+          <div class="st-body"><h3>传闻与回应</h3>
+          <p>成名之后，关于他的故事真假难辨。他选择在镜头前一次次回应：澄清、解释，也把注意力拉回音乐与孩子。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Michael_Jackson_-_High_Res_version_%284518178333%29.jpg/960px-Michael_Jackson_-_High_Res_version_%284518178333%29.jpg" alt="舞台上的他" loading="lazy" />
+          <div class="st-body"><h3>最后一支舞：This Is It</h3>
+          <p>2009 年的排练厅里，他为“告别演出”一遍遍排舞。纪录电影里留下的，是他把最后一次排练也当成正式舞台的样子。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Michael_Jackson_-_High_Res_version_%284518221965%29.jpg/960px-Michael_Jackson_-_High_Res_version_%284518221965%29.jpg" alt="慈善" loading="lazy" />
+          <div class="st-body"><h3>他心里的“治愈世界”</h3>
+          <p>Heal the World 不只是歌名：他成立的基金会、儿童病房探访与数十项援助，是这首歌在现实里最长的注脚。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/The_Jackson_5_1972.JPG/960px-The_Jackson_5_1972.JPG" alt="Jackson 家族" loading="lazy" />
+          <div class="st-body"><h3>一家人：严父与“月光”</h3>
+          <p>排练迟到会被关在排练室门外；正是 Joe 的严苛，把五兄弟练成了会“发出星光”的组合。多年后他说：没有父亲，就没有 Jackson 5。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://upload.wikimedia.org/wikipedia/en/9/99/Badliveatwembley.jpg" alt="Bad 巡演" loading="lazy" />
+          <div class="st-body"><h3>巡演路上：Bad 的 123 场</h3>
+          <p>1987–89 年他几乎没停下来：每场演出前都是两小时的排练，舞台监制说他从不把“巡演”当例行公事。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Michael_Jackson%2C_1988_%283662753958%29.jpg/960px-Michael_Jackson%2C_1988_%283662753958%29.jpg" alt="兄妹" loading="lazy" />
+          <div class="st-body"><h3>兄妹：Janet 与《Scream》</h3>
+          <p>两人把那艘太空飞船拍成了史上最贵的 MV；拍完他说，和 Janet 一起工作像回家。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Michael_Jackson_-_High_Res_version_%284518221965%29.jpg/960px-Michael_Jackson_-_High_Res_version_%284518221965%29.jpg" alt="中国歌迷" loading="lazy" />
+          <div class="st-body"><h3>跨海而来的歌迷</h3>
+          <p>从 1987 年首次踏上中国大陆、1995 年在广州“过夜”，到每个 6·25/8·29 的纪念夜——中国歌迷的月光从未缺席。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Michael_Jackson%2C_1988_%283662754910%29.jpg/960px-Michael_Jackson%2C_1988_%283662754910%29.jpg" alt="舞蹈机密" loading="lazy" />
+          <div class="st-body"><h3>45°前倾的“秘密”</h3>
+          <p>1988 年的舞台上他向前倾倒到几乎贴地——那双特制鞋里藏着的，是专利局都记住的舞步。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/4f/fd/324ffda2-9e51-8f6a-0c2d-c6fd2b41ac55/074643811224.jpg/600x600bb.jpg" alt="Thriller" loading="lazy" />
+          <div class="st-body"><h3>一支 14 分钟的短片，改变行业</h3>
+          <p>《Thriller》短片首播那晚，无数人排队看“音乐录影带首映”——从那天起，看音乐成了全世界的习惯。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Michael_Jackson_-_High_Res_version_%284518178333%29.jpg/960px-Michael_Jackson_-_High_Res_version_%284518178333%29.jpg" alt="儿童慈善" loading="lazy" />
+          <div class="st-body"><h3>病床边的晚安</h3>
+          <p>他常常在深夜悄悄去儿童医院探访，只带一把玩具和一整晚的时间——Heal the World 是他的日程表，不只是歌词。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Michael_Jackson_-_High_Res_version_%284518221965%29.jpg/960px-Michael_Jackson_-_High_Res_version_%284518221965%29.jpg" alt="想起他时" loading="lazy" />
+          <div class="st-body"><h3>当你想起他</h3>
+          <p>他不需要被神话，只需要被记得：记得那些旋律、那些舞步，和那个始终相信“音乐能治愈世界”的男孩。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/4f/fd/324ffda2-9e51-8f6a-0c2d-c6fd2b41ac55/074643811224.jpg/600x600bb.jpg" alt="Man in the Mirror" loading="lazy" />
+          <div class="st-body"><h3>一首歌的早晨：《Man in the Mirror》</h3>
+          <p>词曲作者说，那首关于“改变自己”的歌，灵感来自一个再普通不过的早晨——他相信，一个人先照见自己，世界才会开始改变。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Michael_Jackson_-_High_Res_version_%284518178333%29.jpg/960px-Michael_Jackson_-_High_Res_version_%284518178333%29.jpg" alt="Black or White" loading="lazy" />
+          <div class="st-body"><h3>人脸渐变的魔术</h3>
+          <p>1991 年《Black or White》结尾的人脸渐变，用当年的电脑逐帧合成——它说：所有人其实都是同一张脸。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/The_Jackson_5_1972.JPG/960px-The_Jackson_5_1972.JPG" alt="磁带年代" loading="lazy" />
+          <div class="st-body"><h3>中国歌迷专题：磁带年代</h3>
+          <p>1987 年，许多中国歌迷的第一张“迈克尔”，是一盘翻录到起毛边的磁带。几十年后，这些歌迷把演唱会开到了他的纪念夜。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://upload.wikimedia.org/wikipedia/en/1/11/Michaeljacksondangerous.jpg" alt="Earth Song" loading="lazy" />
+          <div class="st-body"><h3>《Earth Song》与雨林</h3>
+          <p>拍摄团队真的走进亚马逊雨林；他说那句“What about us”不是质问，而是替没有声音的森林与孩子发问。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Michael_Jackson_-_High_Res_version_%284518221965%29.jpg/960px-Michael_Jackson_-_High_Res_version_%284518221965%29.jpg" alt="百事事故" loading="lazy" />
+          <div class="st-body"><h3>1984：镜头里的意外</h3>
+          <p>百事广告拍摄中火花意外引燃头发。他没有中止拍摄，事后把赔偿金捐给了烧伤中心——那也成为他日后被反复追问的一段往事。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Michael_Jackson%2C_1988_%283662753958%29.jpg/960px-Michael_Jackson%2C_1988_%283662753958%29.jpg" alt="30 周年后台" loading="lazy" />
+          <div class="st-body"><h3>三十周年后台的星光</h3>
+          <p>2001 年 MSG 后台像一场家庭聚会：布兰妮、惠特妮、天命真女……都来拥抱那个带他们入行的人。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Michael_Jackson%2C_1988_%283662754910%29.jpg/960px-Michael_Jackson%2C_1988_%283662754910%29.jpg" alt="新歌迷" loading="lazy" />
+          <div class="st-body"><h3>给新歌迷的入坑顺序</h3>
+          <p>先听《Billie Jean》的鼓点，再看《Thriller》的短片，最后在《Man in the Mirror》的现场里哭一次——然后你就回不去了。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Michael_Jackson_-_High_Res_version_%284518178333%29.jpg/960px-Michael_Jackson_-_High_Res_version_%284518178333%29.jpg" alt="巡演后台" loading="lazy" />
+          <div class="st-body"><h3>后台没有彩排的魔法</h3>
+          <p>他说过：彩排时的欢呼是技术，真正的魔法，只在舞台灯光亮起的那一刻发生。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://upload.wikimedia.org/wikipedia/en/9/99/Badliveatwembley.jpg" alt="温布利" loading="lazy" />
+          <div class="st-body"><h3>巡演城市：温布利的雨与万人</h3>
+          <p>1988 年温布利那两晚被完整发行：谢幕时他说“你们是我最棒的观众”，随后 13 分钟掌声不停。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://upload.wikimedia.org/wikipedia/en/1/11/Michaeljacksondangerous.jpg" alt="布加勒斯特" loading="lazy" />
+          <div class="st-body"><h3>巡演城市：布加勒斯特的雨</h3>
+          <p>1992 年那场著名的布加勒斯特现场下着雨，可全场七万人几乎站着看完——官方 DVD 就来自这晚。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Michael_Jackson%2C_1988_%283662754910%29.jpg/960px-Michael_Jackson%2C_1988_%283662754910%29.jpg" alt="东京" loading="lazy" />
+          <div class="st-body"><h3>巡演城市：东京巨蛋的礼数</h3>
+          <p>在东京，他把《Smooth Criminal》的敬礼练得更深——日本人记得那个弯腰近 90 度的鞠躬，和那句用日语说的“谢谢”。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Michael_Jackson_-_High_Res_version_%284518221965%29.jpg/960px-Michael_Jackson_-_High_Res_version_%284518221965%29.jpg" alt="慈善" loading="lazy" />
+          <div class="st-body"><h3>慈善：把巡演开进医院</h3>
+          <p>Bad 巡演期间，他常常在白天去当地儿童医院；医生们说，他走后孩子们会整周学他的舞步。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://is1-ssl.mzstatic.com/image/thumb/Music/y2005/m01/d20/h14/s05.bkornbke.jpg/600x600bb.jpg" alt="We Are the World" loading="lazy" />
+          <div class="st-body"><h3>慈善：从一首合唱到赈灾现场</h3>
+          <p>We Are the World 之后，他还把 1999 年 MJ & Friends 的收入捐给科索沃与儿童救助——慈善不是宣传，是他的巡演路线。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Michael_Jackson%2C_1988_%283662753958%29.jpg/960px-Michael_Jackson%2C_1988_%283662753958%29.jpg" alt="争议澄清" loading="lazy" />
+          <div class="st-body"><h3>争议澄清：关于肤色</h3>
+          <p>他在访谈中反复说明：皮肤变白源于“白斑症”（白癜风），并非漂白。医学与家人后来也证实了这一点。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Michael_Jackson_-_High_Res_version_%284518221965%29.jpg/960px-Michael_Jackson_-_High_Res_version_%284518221965%29.jpg" alt="争议澄清" loading="lazy" />
+          <div class="st-body"><h3>争议澄清：关于他的“奇怪”</h3>
+          <p>他从不觉得孩子气是缺点。他说自己“只是住在大人身体里的孩子”，舞台是他最像自己的地方。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Michael_Jackson_-_High_Res_version_%284518178333%29.jpg/960px-Michael_Jackson_-_High_Res_version_%284518178333%29.jpg" alt="澄清专题" loading="lazy" />
+          <div class="st-body"><h3>争议澄清：把注意力还给音乐</h3>
+          <p>面对漫天传言，他常以作品回应——用巡演、用新歌、用一次次的慈善，让“迈克尔·杰克逊”这个名字继续只与音乐绑定。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0c/fe/a3/0cfea324-57c1-d530-5248-9bb591bbd7bf/074643574525.jpg/600x600bb.jpg" alt="Off the Wall" loading="lazy" />
+          <div class="st-body"><h3>专辑故事：《Off the Wall》的成人礼</h3>
+          <p>20 岁的他第一次想“不再只是 Jackson 5 里的小孩”。他找到 Quincy Jones，也找到了属于自己的节拍。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/4f/fd/324ffda2-9e51-8f6a-0c2d-c6fd2b41ac55/074643811224.jpg/600x600bb.jpg" alt="Thriller" loading="lazy" />
+          <div class="st-body"><h3>专辑故事：《Thriller》的每一格</h3>
+          <p>从录音室到 14 分钟短片，他把专辑做成了一部“可以看的唱片”——于是世界第一次为一盘磁带排队。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d5/5f/28/d55f28f4-610c-ee81-dc16-a01cda46bbc4/886443546264.jpg/600x600bb.jpg" alt="Bad" loading="lazy" />
+          <div class="st-body"><h3>专辑故事：《Bad》的“坏”与不服</h3>
+          <p>他给整张专辑取了一个挑衅的名字，却把《Man in the Mirror》放在里面——最坏的封面，最温柔的内页。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://upload.wikimedia.org/wikipedia/en/3/35/MJ-HIStory.jpg" alt="HIStory" loading="lazy" />
+          <div class="st-body"><h3>专辑故事：《HIStory》的自传</h3>
+          <p>双碟结构一面是过去精选、一面是《Earth Song》《They Don’t Care About Us》——他用唱片写了一本自传。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/dc/02/ef/dc02eff2-027c-a468-7d7b-aa9404e74f1a/mzi.mgytcnob.jpg/600x600bb.jpg" alt="Invincible" loading="lazy" />
+          <div class="st-body"><h3>专辑故事：《Invincible》的最后一章</h3>
+          <p>2001 年的录音室像他的“游乐场”：大牌制作人排着队来，他仍是那个改到天亮的主宰者。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Michael_Jackson_-_High_Res_version_%284518221965%29.jpg/960px-Michael_Jackson_-_High_Res_version_%284518221965%29.jpg" alt="中国歌迷来信" loading="lazy" />
+          <div class="st-body"><h3>中国歌迷来信 · 磁带与海报</h3>
+          <p>“我攒了一个月的零花钱买了那盘磁带，把歌词抄了三遍”——这几乎是每一代中国歌迷共同的开场白。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Michael_Jackson%2C_1988_%283662753958%29.jpg/960px-Michael_Jackson%2C_1988_%283662753958%29.jpg" alt="中国歌迷来信" loading="lazy" />
+          <div class="st-body"><h3>中国歌迷来信 · 广州的下午</h3>
+          <p>1995 年他在广州度过的那个下午，被歌迷称作“最近的月亮”——多年后仍有人记得酒店楼下的人群。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/The_Jackson_5_1972.JPG/960px-The_Jackson_5_1972.JPG" alt="纪念夜" loading="lazy" />
+          <div class="st-body"><h3>中国歌迷来信 · 每个 6·25</h3>
+          <p>每年这一天，各地歌迷会点蜡烛、放他的歌。信末总会写同一句：我们没忘记，也不会忘记。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://upload.wikimedia.org/wikipedia/en/1/11/Michaeljacksondangerous.jpg" alt="Dangerous" loading="lazy" />
+          <div class="st-body"><h3>专辑故事：《Dangerous》与九十年代</h3>
+          <p>九十年代来了，他把危险写进标题，也把“治愈世界”放进歌单——那十年里他是新的王，也是更焦虑的王。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Michael_Jackson%2C_1988_%283662754910%29.jpg/960px-Michael_Jackson%2C_1988_%283662754910%29.jpg" alt="柏林" loading="lazy" />
+          <div class="st-body"><h3>巡演城市：柏林墙前的人海</h3>
+          <p>柏林墙倒塌后的巡演场里，人们在同一个鼓点里挥手——他说那是他见过“最自由的观众”。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Michael_Jackson%2C_1988_%283662753958%29.jpg/960px-Michael_Jackson%2C_1988_%283662753958%29.jpg" alt="悉尼" loading="lazy" />
+          <div class="st-body"><h3>巡演城市：悉尼的烟火夜</h3>
+          <p>南半球的巡演夜，体育场上空放起烟火；他说希望每个孩子都能记得这样的一晚。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Michael_Jackson_-_High_Res_version_%284518178333%29.jpg/960px-Michael_Jackson_-_High_Res_version_%284518178333%29.jpg" alt="彩排" loading="lazy" />
+          <div class="st-body"><h3>彩排日常：与舞者的一天</h3>
+          <p>舞者们记得他总比所有人早到；喊“再来一次”的不是导演，是他自己。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://upload.wikimedia.org/wikipedia/en/5/52/Michael_jackson_immortal_album_cover.jpg" alt="Xscape" loading="lazy" />
+          <div class="st-body"><h3>专辑故事：遗作里的新声</h3>
+          <p>《Michael》《Xscape》让未完成的小样重获生命——听那些录音，就像他又坐在录音室里哼着新旋律。</p></div>
+        </article>
+        <article class="story reveal">
+          <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Michael_Jackson_-_High_Res_version_%284518221965%29.jpg/960px-Michael_Jackson_-_High_Res_version_%284518221965%29.jpg" alt="收藏家" loading="lazy" />
+          <div class="st-body"><h3>音乐之外：永远的收藏家</h3>
+          <p>他收藏古董、艺术与童话书；朋友说，Neverland 其实是他给自己补的童年。</p></div>
+        </article>
+      </div>
+      <div class="extra-grid">
+        <div class="extra reveal">
+          <h3>影视</h3>
+          <ul>
+            <li><strong>The Wiz</strong> · 1978 · 歌舞电影，饰演稻草人</li>
+            <li><strong>Captain EO</strong> · 1986 · 迪士尼 3D 短片</li>
+            <li><strong>Moonwalker</strong> · 1988 · 音乐电影</li>
+            <li><strong>辛普森一家</strong> · 1991 · 客串配音</li>
+            <li><strong>黑衣人 2</strong> · 2002 · 特别客串</li>
+            <li><strong>This Is It</strong> · 2009 · 告别巡演纪录电影</li>
+            <li><strong>Journey from Motown to Off the Wall</strong> · 2016 · 纪录电影</li>
+          </ul>
+        </div>
+        <div class="extra reveal">
+          <h3>游戏与互动</h3>
+          <ul>
+            <li><strong>Moonwalker</strong> · 1988 · 街机 &amp; 世嘉</li>
+            <li><strong>Michael Jackson: The Experience</strong> · 2010/2011 · 全平台</li>
+          </ul>
+        </div>
+        <div class="extra reveal">
+          <h3>广告与品牌</h3>
+          <ul>
+            <li><strong>百事可乐</strong> · 1984 · 拍摄时头部意外受伤</li>
+            <li><strong>百事可乐 Bad 篇</strong> · 1987</li>
+            <li><strong>L.A. Gear</strong> · 1989 · 广告合作</li>
+          </ul>
+        </div>
+        <div class="extra reveal">
+          <h3>慈善</h3>
+          <ul>
+            <li><strong>We Are the World</strong> · 1985 · 合写并参与</li>
+            <li><strong>Heal the World 基金会</strong> · 1992 · 创立</li>
+            <li><strong>数十项慈善支持</strong> · 儿童与灾后援助</li>
+          </ul>
+        </div>
+        <div class="extra reveal">
+          <h3>荣誉</h3>
+          <ul>
+            <li><strong>13 座格莱美</strong> · 含终身成就</li>
+            <li><strong>摇滚名人堂</strong> · 2001 · 两次入选</li>
+            <li><strong>好莱坞星光大道</strong> · 1984 · 星星</li>
+            <li><strong>吉尼斯纪录</strong> · 多项世界纪录</li>
+          </ul>
+        </div>
+        <div class="extra reveal">
+          <h3>创纪录</h3>
+          <ul>
+            <li><strong>史上最畅销专辑</strong> ·《Thriller》</li>
+            <li><strong>史上最成功艺人</strong> · 吉尼斯认定</li>
+            <li><strong>最具影响力的音乐影像</strong> · 行业标杆</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ WORLD MAP · 世界各地的致敬 ============ -->
+  <section class="section worldmap-section" id="worldmap">
+    <header class="section-head reveal">
+      <p class="section-index">◎ / FROM AROUND THE WORLD</p>
+      <h2>世界各地的致敬</h2>
+      <p class="section-sub">月光从不只照亮一个城市——每一处亮起的土地，都有人在唱他的歌。</p>
+    </header>
+    <div class="map-stage reveal" id="map-stage">
+      <div class="world-map" id="world-map"><p class="map-loading">正在加载世界地图…</p></div>
+      <p class="map-note">示意地图 · Natural Earth 数据（Public Domain）· 悬停可查看地区名</p>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer slim-footer" id="disclaimer">
+    <div class="footer-slim">
+      <a class="brand footer-brand" href="#top">
+        <svg class="crown-logo" viewBox="0 0 64 56" aria-hidden="true">
+          <path class="c" d="M12 22 L17 10 L25 19 L32 7 L39 19 L47 10 L52 22 L50 27 L14 27 Z"/>
+          <circle class="g" cx="32" cy="6" r="2.4"/><circle class="g" cx="18" cy="12" r="1.6"/><circle class="g" cx="46" cy="12" r="1.6"/>
+          <rect class="b" x="14" y="27" width="36" height="4" rx="2"/>
+          <text class="t" x="32" y="50" text-anchor="middle" font-family="'Bebas Neue', Impact, 'Arial Narrow', sans-serif" font-size="21" letter-spacing="2">MJ</text>
+        </svg>
+        <span class="brand-text"><strong>MICHAEL JACKSON</strong><small>THE KING OF POP · FAN TRIBUTE</small></span>
+      </a>
+      <nav class="footer-mini" aria-label="页脚导航">
+        <a href="#timeline">时间长廊</a>
+        <a href="#works">作品</a>
+        <a href="#moments">经典时刻</a>
+        <a href="#watch">视听</a>
+        <a href="#live">现场</a>
+        <a href="#memorial">怀念</a>
+        <a href="#more">更多</a>
+        <a href="https://www.michaeljackson.com" target="_blank" rel="noopener">官方站 ↗</a>
+      </nav>
+      <p class="footer-note">
+        非官方影迷致敬档案 · 与 Michael Jackson Estate / MJJP Records / Sony Music 无隶属关系 · 封面、海报与影像来自公开渠道（Apple Music、Wikipedia / Wikimedia Commons），权利归各自权利人，仅作非商业欣赏，可随时移除 · 本站文案与代码原创 · 联系：leooelcn@gmail.com · © 2026
+      </p>
+    </div>
+  </footer>
+
+  <!-- ============ BACKGROUND MUSIC HOST (hidden, loops internally) ============ -->
+  <div class="music-host" id="music-player" aria-hidden="true">
+    <div class="mp-frame" id="mp-frame"><div id="mp-yt" class="mp-yt"></div></div>
+  </div>
+  <p class="music-now" id="music-now" role="status" aria-live="polite"></p>
+
+  <!-- 回到顶部 -->
+  <button class="backtop" id="backtop" type="button" aria-label="回到顶部" title="回到顶部">↑<span>回到顶部</span></button>
+
+  <!-- ============ LIVE REPLAY MODAL (经典现场回放 · 大窗口) ============ -->
+  <div class="replay-modal" id="replay-modal" aria-hidden="true">
+    <div class="rm-box" role="dialog" aria-modal="true" aria-label="经典现场回放播放窗口">
+      <div class="rm-head">
+        <div class="rm-titles">
+          <strong id="rm-title">经典现场回放</strong>
+          <span id="rm-sub">—</span>
+        </div>
+        <button class="rm-close" id="rm-close" type="button" aria-label="收起播放窗口" title="收起 (Esc)">✕</button>
+      </div>
+      <div class="rm-stage" id="rm-stage"></div>
+      <div class="rm-foot">
+        <span class="mt-label">播放源</span>
+        <button type="button" class="mt-chip rm-src" data-mt="yt">▶ YouTube</button>
+        <button type="button" class="mt-chip rm-src" data-mt="bv">▶ B站</button>
+        <a class="mt-ext" id="rm-ext" href="#" target="_blank" rel="noopener">外部打开 ↗</a>
+        <button type="button" class="rm-pause" id="rm-pause">⏸ 收起</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="data.js?v=18"></script>
+  <script src="app.js?v=28"></script>
+</body>
+</html>

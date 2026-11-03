@@ -1,0 +1,4 @@
+coscli_output/
+audit-*.md
+*.log
+.DS_Store
